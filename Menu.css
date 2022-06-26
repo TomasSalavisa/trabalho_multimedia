@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&display=swap");
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 100%;
+    padding-left: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+     background-color: black;
+} 
+body{
+    background-color: beige;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+.slideshow h1{
+    text-align: center;
+}
+
+ .slideshow img{
+    width: 24%;
+} 
+
+.slideshow button{
+    width:7%;
+    margin-right: 90px;
+    background: pink;
+    color: black;
+    border-radius: 10px; 
+    border-color: pink;
+    margin-left: 60px;  
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 33%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card button {
+    padding-right: 50px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+    scroll-behavior: smooth;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 20px;
+    color: black;
+}
+
+textarea {
+    padding: 50px 20px;
+}
+
+textarea::placeholder {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid pink;
+}
+
+form button {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background: pink;
+    color: grey;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+     background-color: black;
+} 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+/* video {
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    z-index: -1;
+    filter:brightness(50%);
+} */
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: white;
+    background-color: black;
+}
+
+footer a img {
+    width: 30%;
+    /* margin-left: 5px; */
+    background-color: white;
+    border-radius: 50%;
+}
+
+footer .icones  {
+    display: flex;
+    justify-content: center;
+
+}
